@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    /* overflow-x:hidden ; */
+
+}
+
+.navbar{
+    height:70px;    
+}
+
+/* used a customised class to modify element */
+.bg-color{
+    background-color:#0a0b27;
+    
+}
+/* media query is used to work dropdown hover only in width grater than 768px */
+@media only screen and (min-width:768px ) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        background-color:#e53f27;
+        border-bottom: 5px solid #0a0b27;
+        
+    }
+    
+}
+
+.img-1{
+        max-width: 100%;/* Ensures the image does not exceed the width of its container */
+       
+    
+}
+/* customised drop down menu */
+.frio-dropdown-menu{
+    border-radius: 0 !important;
+    top: 55px !important;
+}
+
+.body-2{
+    
+    background-color: #861d1d;
+
+    
+}
+
+.body-2-div-1{
+    position:relative;
+    background-color:#96d51a;
+    width:50%;
+    
+}
+.body-2-div-2{
+    background-color:rgb(255, 255, 255);
+    padding: 100px !important;
+}
+
+@media (max-width:766px){
+    .body-2-div-2{
+        padding: 30px !important;
+    }
+}
+
+.rotator-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+.rotator-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+/* text-styling */
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "EksellDisplayWeb-Small";
+    color:white;
+    
+}
+
+.rotator{
+   width:150px;
+}
+
+
+
+/* medea queries for image height adjustment */
+@media (max-width:766px){
+    .rotator{
+        width:40%;
+    }
+}
+
+
+.text-adjust{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:#ff5a30;
+    font-weight: 300;
+    line-height: 44px;
+    
+}
+
+.body-2-div-2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #ff5a30;
+   
+}
+
+/* space is requirede when write and key word ,below...*/
+@media (min-width:991px) and (max-width:1220px){
+    .text-adjust{
+        margin-top:58px; 
+    }
+}
+
+/* body-3 styling */
+
+.body-3{
+    background-color: #e53f27;
+    width:100%;
+}
+
+.gif-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-sm-icons{
+    display: flex;
+    list-style: none;
+    column-gap: 12px;
+    padding: 0;
+}
+
+.footer-sm-icon{
+    text-align: center;
+    background-color: #0a0b27;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.footer-sm-icon:hover{
+    background-color: #e53f27;
+    transition: 1s;
+}
+
+.link-style{
+    font-size: 14px;
+}
+
+.link-style a {
+    text-decoration:none;
+    color: #0a0b27;
+    font-weight:800;
+}
+.link-style a:hover{
+    text-decoration:underline;
+    color:#861d1d;
+    transition: 0.25s;
+    
+}
+
+.footer-tab{
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
