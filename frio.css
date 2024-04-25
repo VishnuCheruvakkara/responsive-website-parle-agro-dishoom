@@ -8,6 +8,10 @@
 .navbar{
     height:70px;    
 }
+.navbar-brand{
+    padding-left: 26px;
+}
+
 
 /* used a customised class to modify element */
 .bg-color{
